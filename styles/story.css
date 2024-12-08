@@ -1,0 +1,56 @@
+.story-container__title {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+}
+
+.story-container__main {
+    border: 1px solid black;
+    display: flex;
+}
+
+.story-container__main__behind {
+    border: 1px solid black;
+}
+
+.story-container__main__image {
+    border: 1px solid black;
+}
+
+.story-container__main__behind__text {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 64.51px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 54px 54px;
+}
+
+.story-container__main__behind__girl-image {
+    padding: 0;
+}
+
+.story-container__main__image {
+    position: relative;
+}
+
+.story-container__main__image__text-up {
+    position: absolute;
+    top: 17%;
+    left: 0;
+}
+
+.story-container__main__image__text-up__text {
+    color: rgb(0, 0, 0);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 12px 171px;
+}

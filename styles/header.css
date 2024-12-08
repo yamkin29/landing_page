@@ -1,0 +1,41 @@
+.header {
+    border: 1px solid black;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    margin: 21px auto;
+}
+
+.header__button {
+    background-color: #FB4B4D;
+    margin: 9px 21px 9px 21px;
+    padding: 15px 44px 15px 44px;
+    color: white;
+}
+
+.header__reference {
+    margin: 9px 21px 9px 21px;
+    padding: 15px 44px 15px 44px;
+}
+
+.header__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__logo__circle {
+    width: 17px;
+    height: 17px;
+    margin: 26px 21px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    background: rgb(251, 75, 77);
+}
+
+.violet {
+    background-color: rgb(139, 131, 246);
+}

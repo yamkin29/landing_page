@@ -1,0 +1,17 @@
+@import "styles/header.css";
+@import "styles/title.css";
+@import "styles/card.css";
+@import "styles/story.css";
+@import "styles/footer.css";
+
+body {
+    width: 1440px;
+    height: 4472px;
+}
+
+.main {
+    border: 1px solid black;
+}
+
+
+
