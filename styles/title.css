@@ -5,7 +5,7 @@
 
 .title-container__section-left {
     border: 1px solid black;
-    flex-grow: 0.5;
+    flex: 1;
 }
 
 .title-container__section-left__container-image-absolut {
@@ -16,6 +16,7 @@
 .title-container__section-left__container-image-1 {
     position: relative;
     z-index: 1;
+    margin: 10px;
 }
 
 .title-container__section-left__container-image-2 {
@@ -37,18 +38,18 @@
 }
 
 .title-container__section-left__container-image-3 {
-    display: flex;
-    justify-content: center;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 .title-container__section-right {
     border: 1px solid black;
-    flex-grow: 0.5;
+    flex: 1;
 }
 
 .title-container__section-right__container-text {
     color: rgb(0, 0, 0);
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 58px;
     font-weight: 400;
     line-height: 64.51px;
@@ -62,4 +63,24 @@
 .title-container__section-right__container-image-4 {
     display: flex;
     justify-content: center;
+}
+
+.image-4 {
+    background-size: cover;
+    width: 100%;
+}
+
+.image-3 {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.image-2 {
+    background-size: 50% 50%;
+}
+
+.image-1 {
+    background-size: cover;
+    width: 100%;
 }
